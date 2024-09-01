@@ -28,7 +28,7 @@ function PlaceCard({place}) {
 
   return (
     <Link to={'https://www.google.com/maps/search/?api=1&query=' + place?.name} target='_blank'>
-        <div className='flex flex-col w-[300px] h-[400px] mx-[20px] rounded-md p-2 items-center shadow-xl hover:scale-110 max-[425px]:mb-[50px] max-[768px]:w-[200px] max-[768px]:mx-[10px]'>
+        <div className='flex flex-col w-[300px] h-[400px] mx-[20px] rounded-md p-2 items-center shadow-xl hover:scale-110 max-[425px]:mb-[50px] max-[768px]:w-[200px] max-[768px]:mx-[10px] max-[768px]:h-auto'>
             <p className='font-bold text-sm text-[#ff00008d]'>{place.time}</p>
             <img
                 className="w-[200px] h-[170px] my-[7px]"

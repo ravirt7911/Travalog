@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import LandingPage from "./pages/LandingPage";
 import FormPage from "./pages/FormPage";
 import ItineraryPage from "./pages/ItineraryPage";
-import MyTrips from "./components/MyTrips";
+import MyTrips from "./pages/MyTrips";
 
 const App = () => {
   return (

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import GooglePlacesAutocomplete from 'react-google-places-autocomplete';
 import Button from "../components/Button";
-import { AI_PROMPT } from "../components/AIprompt";
+import { AI_PROMPT } from "../service/AIprompt";
 import { chatSession } from "../service/AIModal";
 import { doc, setDoc } from "firebase/firestore";
 import { db, auth } from "../service/firebase";
@@ -59,8 +59,8 @@ const FormPage = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-[80vh] w-full p-6">
-      <div className="flex flex-col w-[30vw]">
+    <div className="flex items-center justify-center h-[80vh] w-full p-6 max-[425px]:flex-col max-[425px]:justify-center">
+      <div className="flex flex-col w-[30vw] max-[425px]:w-[70vw]">
         <h2 className="text-4xl font-extrabold text-[#FF0505] mb-6 text-center">Plan Your Trip</h2>
         <form>
           <div className="mb-4">
@@ -121,7 +121,7 @@ const FormPage = () => {
               className="w-full h-[45px] px-3 py-2 border-[1px] border-[#D9D9D9] rounded-md shadow-sm focus:outline-none focus:border-[#FF0505]"
             >
               <option value="" disabled>Select your budget</option>
-              <option value="Low">Budget</option>
+              <option value="Low">Budget Friendly</option>
               <option value="Medium">Mid-Range</option>
               <option value="High">Luxury</option>
             </select>
@@ -143,7 +143,7 @@ const FormPage = () => {
           </div>
         </form>
       </div>
-      <div className="ml-[150px] mt-[30px]">
+      <div className="ml-[150px] mt-[30px] max-[425px]:mr-[5px]">
         <Button
           bgColor="#FF0505"
           textColor="#FFFFFF"

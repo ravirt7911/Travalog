@@ -28,10 +28,10 @@ const LandingPage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center mt-[30px]">
-      <h1 className="text-[50px] font-extrabold mb-4">Your Ultimate Travel Itinerary Planner</h1>
-      <p className="font-normal text-[30px] w-[500px] text-center mb-4">Build and optimize your travel itineraries with our AI trip planner.</p>
+      <h1 className="text-[50px] font-extrabold mb-4 max-[425px]:w-[300px] max-[425px]:text-[40px]">Your Ultimate Travel Itinerary Planner</h1>
+      <p className="font-normal text-[30px] w-[500px] text-center mb-4 max-[425px]:w-[300px] max-[425px]:text-[20px]">Build and optimize your travel itineraries with our AI trip planner.</p>
       <Button bgColor="#FF0505" textColor="#FFFFFF" handleClicked={handleTryNowClick} text={loading ? "Loading..." : "Try Now"}/>
-      <div className="h-[400px] w-[400px]">
+      <div className="h-[400px] w-[400px] max-[425px]:w-[300px]">
         <img src="./assets/traveller.png" alt="logo" />
       </div>
     </div>

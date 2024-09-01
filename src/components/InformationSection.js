@@ -28,7 +28,7 @@ function InformationSection({ trip }) {
     return (
         <div className="p-6 flex flex-col justify-center items-center">
             <img
-                className="w-[80vw] h-[400px] object-cover rounded-xl max-[425px]:h-[300px]"
+                className="w-[80vw] h-[400px] object-cover rounded-xl max-[425px]:h-[330px]"
                 src={photoUrl}
                 alt="trip"
             />

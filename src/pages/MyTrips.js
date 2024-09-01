@@ -63,7 +63,7 @@ function MyTrips() {
             <div className='flex w-[70vw] flex-wrap justify-center'>
                 {trips && trips.map((trip) => (
                     <Link key={trip.id} to={process.env.REACT_APP_BASE_URL+`/itinerary/${trip.id}`}>
-                        <div className='w-[20vw] mb-10 hover:scale-105'>
+                        <div className='w-[20vw] mb-10 hover:scale-105 max-[425px]:w-[50vw]'>
                             <img src={photos[trip.id] ? photos[trip.id] : '/assets/traveling.jpg'} alt="trip" className='h-[250px] w-[220px] rounded-md' />
                             <h1 className='w-[12vw] font-bold'>{trip.userSelection.destination?.label}</h1>
                             <p>{trip.userSelection.days} days, {trip.userSelection.budget} budget</p>
