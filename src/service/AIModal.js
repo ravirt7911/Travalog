@@ -8,6 +8,7 @@ const model = genAI.getGenerativeModel({
 model: "gemini-1.5-flash",
 });
 
+// model config
 const generationConfig = {
     temperature: 1,
     topP: 0.95,
@@ -16,7 +17,7 @@ const generationConfig = {
     responseMimeType: "application/json",
 };
 
-
+//Start chat session example
 export const chatSession = model.startChat({
     generationConfig,
 // safetySettings: Adjust safety settings
