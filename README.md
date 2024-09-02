@@ -168,7 +168,7 @@ The approach was user-centric, focusing on creating a seamless and engaging expe
 ![image](https://github.com/user-attachments/assets/3aa966c9-5379-44fb-bd6d-785f02352c02)
 
 #### Itinerary generated
-![image](https://github.com/user-attachments/assets/1c5551d4-5af7-45ad-beb0-c6547ae83c04)
+![image](https://github.com/user-attachments/assets/1bd7074a-c726-425c-9e26-f7266e8225ae)
 ![image](https://github.com/user-attachments/assets/206d427e-17d7-4a21-84cf-7a3534fc1c43)
 ![image](https://github.com/user-attachments/assets/189b0024-63e1-4930-a774-cc777e387f4d)
 
