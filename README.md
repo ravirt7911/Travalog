@@ -91,7 +91,7 @@ The approach was user-centric, focusing on creating a seamless and engaging expe
 
 #### User Action: Input Preferences
 - The user enters travel preferences: destination, number of days, budget range, and number of people.
-- AI-assisted input (via Google Maps Places API) suggests destinations as the user types. (CHECK)
+- Assisted input (via Google Maps Places API) suggests destinations as the user types. 
 
 #### User Action: Submit Preferences
 - Upon submitting the preferences, the frontend sends the data to the backend via an API request.
