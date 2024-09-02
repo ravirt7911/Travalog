@@ -159,7 +159,28 @@ The approach was user-centric, focusing on creating a seamless and engaging expe
 
 ---
 
-# THE END 
+# Screenshots
+
+#### Home Page
+![image](https://github.com/user-attachments/assets/293e6e17-f9ce-4a8f-8aa3-ad04e8292dd9)
+
+**Click on "Try Now" and login using your Google Account.**
+
+#### User Inputs Preferences
+![image](https://github.com/user-attachments/assets/3aa966c9-5379-44fb-bd6d-785f02352c02)
+
+**Enter your preferences & Click on make itinerary and wait till the Itinerary loads**
+
+![image](https://github.com/user-attachments/assets/1c5551d4-5af7-45ad-beb0-c6547ae83c04)
+![image](https://github.com/user-attachments/assets/206d427e-17d7-4a21-84cf-7a3534fc1c43)
+![image](https://github.com/user-attachments/assets/189b0024-63e1-4930-a774-cc777e387f4d)
+
+
+
+
+
+
+
 
 
 
