@@ -67,7 +67,7 @@ The solution effectively meets the challenge by providing a seamless user experi
 
 ### Interesting Nuances
 
-- AI Autotyping: Integrating AI to suggest places as users type ensures that the inputs are both relevant and accurate, reducing the likelihood of errors.
+- Auto Suggestions by Google Places Auto-complete API: Integrating Google Places Auto-complete API to suggest places as users type ensures that the inputs are both relevant and accurate, reducing the likelihood of errors.
 - Real-time Data: Using the Google Maps Places API ensures that the itinerary is populated with the most current information, including images and locations.
 
 ### Explanation of Choices and Thought Process
