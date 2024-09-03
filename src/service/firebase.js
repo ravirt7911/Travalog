@@ -4,14 +4,13 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB-IPhjo8cTrIHH4q1eg-79dmsDuOVon2M",
-    authDomain: "travalog-ffe26.firebaseapp.com",
-    projectId: "travalog-ffe26",
-    storageBucket: "travalog-ffe26.appspot.com",
-    messagingSenderId: "631679662230",
-    appId: "1:631679662230:web:b7be34bc2bccc15316aab7",
-    measurementId: "G-P42N68H49T"
-  };
+  apiKey: process.env.REACT_APP_FIREBASE_API,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: "travalog-d5ff1",
+  storageBucket: "travalog-d5ff1.appspot.com",
+  messagingSenderId: "432086887021",
+  appId: "1:432086887021:web:eb908dddb01cb6f6646d64"
+};
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
